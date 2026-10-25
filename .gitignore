@@ -1,0 +1,33 @@
+# Xcode
+#
+# gitignore contributors: cache if requested
+# NB: Do not ignore workspace settings and shared data!
+*.xcuserdatad/
+xcuserdata/
+
+# Xcode temporary / derived files
+build/
+DerivedData/
+*.moved-aside
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+
+# CocoaPods (por si se usa en el futuro)
+Pods/
+*.xcworkspace/xcuserdata/
+
+# Archivos de sistema de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Backups y temporales
+*~
+*.swp
+*.lock
