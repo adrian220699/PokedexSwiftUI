@@ -13,7 +13,6 @@ struct PokemonListItemDTO : Decodable {
     
 }
 
-
 extension PokemonListItemDTO {
     
     func toDomain() -> Pokemon {
